@@ -26,3 +26,35 @@ fastlane/screenshots
 # Personal / local files
 *.personal.*
 *.local.*
+
+# API Keys and Secrets
+.env
+*.env
+.env.*
+!.env.example
+
+# Backend dependencies (if moved inside repo)
+backend/node_modules/
+backend/.env
+
+# Python (if using any Python tools)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+*.log
