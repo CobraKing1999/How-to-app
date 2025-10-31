@@ -5,15 +5,24 @@ DerivedData/
 *.xcuserdatad/
 *.xccheckout
 *.xcscmblueprint
-# SwiftPM
+
+# Swift Package Manager
 .build/
+
 # CocoaPods
 Pods/
+
 # Carthage
 Carthage/
+
 # Fastlane
 fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots
-# macOS
+
+# macOS system files
 .DS_Store
+
+# Personal / local files
+*.personal.*
+*.local.*
