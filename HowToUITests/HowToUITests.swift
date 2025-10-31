@@ -1,13 +1,13 @@
 //
-//  How_ToUITests.swift
-//  How ToUITests
+//  HowToUITests.swift
+//  HowToUITests
 //
 //  Created by braeden gilbert on 10/28/25.
 //
 
 import XCTest
 
-final class How_ToUITests: XCTestCase {
+final class HowToUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

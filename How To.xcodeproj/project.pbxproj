@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5AD471862EB1C5F400D72337 /* HowToApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD471852EB1C5F400D72337 /* HowToApp.swift */; };
+		5AD471B42EB1C66300D72337 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AD471872EB1C66300D72337 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		5AD471692EB1C5B400D72337 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,22 +32,49 @@
 		5AD4715B2EB1C5B300D72337 /* How To.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "How To.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AD471682EB1C5B400D72337 /* How ToTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "How ToTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AD471722EB1C5B400D72337 /* How ToUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "How ToUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AD471852EB1C5F400D72337 /* HowToApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToApp.swift; sourceTree = "<group>"; };
+		5AD471872EB1C66300D72337 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		5AD4715D2EB1C5B300D72337 /* How To */ = {
+		5AD4718A2EB1C66300D72337 /* Components */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "How To";
+			path = Components;
 			sourceTree = "<group>";
 		};
-		5AD4716B2EB1C5B400D72337 /* How ToTests */ = {
+		5AD4718D2EB1C66300D72337 /* HowToTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "How ToTests";
+			path = HowToTests;
 			sourceTree = "<group>";
 		};
-		5AD471752EB1C5B400D72337 /* How ToUITests */ = {
+		5AD471902EB1C66300D72337 /* HowToUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "How ToUITests";
+			path = HowToUITests;
+			sourceTree = "<group>";
+		};
+		5AD471922EB1C66300D72337 /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5AD471942EB1C66300D72337 /* Services */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5AD471962EB1C66300D72337 /* Utilities */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		5AD4719B2EB1C66300D72337 /* ViewModels */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5AD471A12EB1C66300D72337 /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +107,16 @@
 		5AD471522EB1C5B300D72337 = {
 			isa = PBXGroup;
 			children = (
-				5AD4715D2EB1C5B300D72337 /* How To */,
-				5AD4716B2EB1C5B400D72337 /* How ToTests */,
-				5AD471752EB1C5B400D72337 /* How ToUITests */,
+				5AD471852EB1C5F400D72337 /* HowToApp.swift */,
+				5AD471872EB1C66300D72337 /* Assets.xcassets */,
+				5AD4718A2EB1C66300D72337 /* Components */,
+				5AD4718D2EB1C66300D72337 /* HowToTests */,
+				5AD471902EB1C66300D72337 /* HowToUITests */,
+				5AD471922EB1C66300D72337 /* Models */,
+				5AD471942EB1C66300D72337 /* Services */,
+				5AD471962EB1C66300D72337 /* Utilities */,
+				5AD4719B2EB1C66300D72337 /* ViewModels */,
+				5AD471A12EB1C66300D72337 /* Views */,
 				5AD4715C2EB1C5B300D72337 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,7 +147,12 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				5AD4715D2EB1C5B300D72337 /* How To */,
+				5AD4718A2EB1C66300D72337 /* Components */,
+				5AD471922EB1C66300D72337 /* Models */,
+				5AD471942EB1C66300D72337 /* Services */,
+				5AD471962EB1C66300D72337 /* Utilities */,
+				5AD4719B2EB1C66300D72337 /* ViewModels */,
+				5AD471A12EB1C66300D72337 /* Views */,
 			);
 			name = "How To";
 			packageProductDependencies = (
@@ -131,7 +175,7 @@
 				5AD4716A2EB1C5B400D72337 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				5AD4716B2EB1C5B400D72337 /* How ToTests */,
+				5AD4718D2EB1C66300D72337 /* HowToTests */,
 			);
 			name = "How ToTests";
 			packageProductDependencies = (
@@ -154,7 +198,7 @@
 				5AD471742EB1C5B400D72337 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				5AD471752EB1C5B400D72337 /* How ToUITests */,
+				5AD471902EB1C66300D72337 /* HowToUITests */,
 			);
 			name = "How ToUITests";
 			packageProductDependencies = (
@@ -212,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AD471B42EB1C66300D72337 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AD471862EB1C5F400D72337 /* HowToApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +451,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,6 +484,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
